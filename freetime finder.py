@@ -14,8 +14,8 @@ df = pd.read_excel('/Users/bijaygautam/Backups/Islington Files /5. Teaching Mate
 lecturer_groups = df.groupby('Lecturer')
 
 # Specify the module and lecturer for which you want to find free time
-target_lecturer = 'Mr. Prabodh Tuladhar'  # Replace with the desired lecturer's name
-target_module = 'CS4001NI'  # Replace with the desired module code
+target_lecturer = 'Mr. Bijay Gautam'  # Replace with the desired lecturer's name
+target_module = 'CS4571NI'  # Replace with the desired module code
 
 # Filter the data for the target lecturer and module
 target_data = df[(df['Lecturer'] == target_lecturer) & (df['Module Code'] == target_module)]
