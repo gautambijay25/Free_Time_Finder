@@ -2,7 +2,7 @@
 
 # Time Table Analyzer
 
-This Python script is designed to analyze and identify free time slots for a specific lecturer and module in a university timetable. It utilizes the pandas library to read an Excel sheet containing the timetable data and then identifies and displays the free time slots for a particular lecturer and module.
+This Python script is designed to analyze and identify free time slots for a specific lecturer and module in a university timetable. It utilizes the pandas library to read an Excel sheet containing the timetable data and then identify and display the free time slots for a particular lecturer and module.
 
 ## Usage
 
@@ -16,5 +16,5 @@ pip install pandas
 target_lecturer = 'Mr. Prabodh Tuladhar'  # Replace with the desired lecturer's name
 target_module = 'CS4001NI'  # Replace with the desired module code
 
-Run the script:
+##Run the script:
 python script.py
